@@ -18,7 +18,7 @@ import {
 
 export default function Skills() {
   return (
-    <section className="bg-gray-100 py-8">
+    <section className="bg-gray-100 py-8" id="Skills">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Skills</h2>
 

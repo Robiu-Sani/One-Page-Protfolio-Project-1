@@ -6,3 +6,104 @@
   transition: all 0.5s;
   scroll-behavior: smooth;
 }
+.pdfIssue {
+  background-color: inherit !important;
+  color: inherit !important;
+}
+
+/* styles.css */
+
+.resume-container {
+  width: 900px;
+  border: 1px solid #e5e7eb;
+  background-color: #ffffff;
+  padding: 24px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.resume-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.resume-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a202c;
+}
+
+.resume-header p {
+  font-size: 1.25rem;
+  color: #4a5568;
+}
+
+.resume-section {
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #4299e1;
+  padding-bottom: 0.5rem;
+}
+
+.resume-section h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1a202c;
+  border-bottom: 2px solid #4299e1;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.resume-section p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4a5568;
+}
+
+.resume-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.resume-section li {
+  font-size: 1rem;
+  color: #4a5568;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.resume-section li svg {
+  margin-right: 0.5rem;
+}
+
+.resume-section a {
+  color: #4299e1;
+  text-decoration: none;
+}
+
+.resume-section a:hover {
+  text-decoration: underline;
+}
+
+.resume-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.resume-button button {
+  padding: 0.75rem 1.5rem;
+  background-color: #1e40af;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.resume-button button:hover {
+  background-color: #1a365d;
+}

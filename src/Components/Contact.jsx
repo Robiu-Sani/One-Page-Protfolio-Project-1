@@ -10,7 +10,7 @@ import {
 
 export default function Contact() {
   return (
-    <section className="bg-white py-8 my-10">
+    <section className="bg-white py-8 my-10" id="Contact">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center px-2 mb-8">Contact</h2>
         <div className="w-full grid grid-cols-1 justify-center items-center gap-6 md:grid-cols-2">
